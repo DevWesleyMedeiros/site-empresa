@@ -1,0 +1,41 @@
+COMO FUNCIONA A PROPIEDADE CLEAR: BOTH; EM ELEMENTOS FLUTUANTES NO css:
+
+A propriedade CSS clear: both; é usada para controlar o comportamento de elementos que seguem um ou mais elementos flutuantes em um layout CSS. Para entender como funciona o clear: both;, é importante entender o conceito de flutuação em CSS.
+Quando um elemento é definido como "flutuante" usando a propriedade float, ele é retirado do fluxo normal do documento e pode se posicionar ao lado de outros elementos, como imagens ao redor do texto. Isso é útil para criar layouts de várias colunas, entre outros.
+No entanto, às vezes, você pode enfrentar problemas quando elementos subsequentes não se comportam da maneira que você deseja em relação aos elementos flutuantes. O clear: both; é usado para lidar com esses problemas. Aqui está como ele funciona:
+
+clear: both; significa que o elemento que possui essa propriedade não pode ficar ao lado de nenhum elemento flutuante (ou seja, elementos com float: left; ou float: right;). Ele deve ser posicionado abaixo de todos os elementos flutuantes.
+
+Quando usar clear: both;:
+
+Alinhar elementos após elementos flutuantes: Você deve usar clear: both; quando deseja que um elemento fique abaixo de todos os elementos flutuantes, mesmo que haja espaço disponível ao lado deles. Isso é comum em layouts de várias colunas.
+
+css
+
+.float-left {
+  float: left;
+}
+
+.clear-both {
+  clear: both;
+}
+
+html
+
+<div class="float-left">Elemento flutuante</div>
+<div class="clear-both">Elemento abaixo dos elementos flutuantes</div>
+
+Evitar que elementos adjacentes herdem as propriedades de flutuação: Se você tiver elementos adjacentes a elementos flutuantes e não quiser que eles herdem as propriedades de flutuação, pode usar clear: both; para evitar isso.
+
+css
+
+.float-left {
+  float: left;
+}
+
+html
+
+<div class="float-left">Elemento flutuante</div>
+<div class="clear-both">Elemento abaixo sem herdar a flutuação</div>
+
+No entanto, é importante observar que a flutuação é uma técnica antiga de layout, e há métodos mais modernos, como flexbox e grid, que são geralmente preferidos para a criação de layouts complexos. O uso de clear: both; pode ser necessário apenas em casos específicos em que você precise interagir com layouts mais antigos ou legados que dependem de flutuação.
