@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+body, html{
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    max-height: 700px; 
+    /*90vh de uma tela com o tamanho máximo de 700px*/
+    padding: 40px 2%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets_arquivos/imagem-background1.jpg');
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    float: left;
+    padding: 0 15px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+div.container{
+    max-width: 1280px;
+    margin: 0 auto; 
+}
+div.clear{
+    clear: both;
+}
+div.container > div.logo{
+    float: left;
+    width: 160px;
+    height: 40px;
+    background-color: #ccc;
+}
+div.chamada1{
+    float: right;
+    margin: 140px 150px;
+}
+div.chamada > h2{
+    font-size: 40px;
+    color: white;
+}
+
+
