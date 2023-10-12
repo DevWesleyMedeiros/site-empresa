@@ -17,13 +17,14 @@ header{
     background-image: url('../assets_arquivos/imagem-background1.jpg');
 }
 header nav.desktop-menu{
-    float: right;
+    float: right; /* Flutua a ul à direita */
+    transition: 1.5s;
 }
 header nav.desktop-menu ul{
     list-style-type: none;
 }
 header nav.desktop-menu ul li{
-    float: left;
+    float: left; /*Faz eles ficarem um do lado do outro*/
     padding: 0 15px;
 }
 header nav.desktop-menu ul li a{
@@ -31,8 +32,20 @@ header nav.desktop-menu ul li a{
     text-decoration: none;
     padding: 0 5px;
 }
-nav.mobile-menu{
+nav.mobile-menu ul{
     display: none;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+nav.mobile-menu ul{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 40px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
 }
 div.container{
     max-width: 1280px;
@@ -82,8 +95,9 @@ div.texto_sessao1 p{
     margin-top: 20px;
 }
 div.texto_sessao1 ul{
-    list-style-position: inside;
+    list-style-position: outside;
     font-size: 15px;
+    padding-left: 15px;
 }
 div.texto_sessao1 ul li{
     float: left;
@@ -122,7 +136,7 @@ div.container_sessao1 > div.device_sessao1{
     nav.desktop-menu{
         display: none;
     }
-    nav.mobile-menu{
+    nav.mobile-menu ul{
         display: block;
         text-align: center;
     }
