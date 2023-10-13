@@ -1,0 +1,80 @@
+@media screen and (max-width: 797px){
+    header{
+        width: 100%;
+        height: auto;
+        padding: 40px 1rem;
+    }
+    nav.desktop-menu{
+        display: none;
+    }
+    nav.mobile-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav.mobile-menu ul{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        background-color: blueviolet;
+    }
+    nav.mobile-menu ul > li > a{
+        display: block;
+        color: white;
+        border-bottom: 1px solid black;
+    }
+    section.sessao1{
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;     
+    }
+    div.container_sessao1 > div.texto_sessao1{
+        width: 100%;
+        margin-top: 0;
+        padding-left: 0;
+        position: static;
+        float: none;
+        display: inline-block;
+    }
+    div.texto_sessao1 > div.btn1_texto{
+        display: inline-block;
+    }
+    div.texto_sessao1 ul > li{
+        float: none;
+        text-align: left;
+    }
+    div.container_sessao1 > div.texto_sessao1 > ul{
+        display: inline-block;
+        margin-top: 20px;
+    }
+    div.device_sessao1{
+        display: none;
+    }
+    div.chamada1{
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 100px 0;
+    }
+    div.chamada1 h2{
+        font-weight: 500;
+        font-size: 30px;
+        padding: 0 10px;
+    }
+    div.chamada1 p{
+        text-align: start;
+    }
+    section.sessao2{
+        padding: 40px 2%;
+    }
+}
+@media screen and (max-width: 1024px){
+    div.device_sessao1{
+        display: none;
+    }
+}

@@ -11,20 +11,21 @@ body, html{
 header{
     width: 100%;
     height: 90vh;
+    min-height: 800px;
     padding: 40px 2%;
     background-size: cover;
     background-position: center;
     background-image: url('../assets_arquivos/imagem-background1.jpg');
 }
 header nav.desktop-menu{
-    float: right; /* Flutua a ul à direita */
+    float: right;
     transition: 1.5s;
 }
 header nav.desktop-menu ul{
     list-style-type: none;
 }
 header nav.desktop-menu ul li{
-    float: left; /*Faz eles ficarem um do lado do outro*/
+    float: left; 
     padding: 0 15px;
 }
 header nav.desktop-menu ul li a{
@@ -126,64 +127,23 @@ div.container_sessao1 > div.device_sessao1{
     top: -20px;
     left: -10%;
 }
-
-@media screen and (max-width: 797px){
-    header{
-        width: 100%;
-        height: auto;
-        padding: 40px 1rem;
-    }
-    nav.desktop-menu{
-        display: none;
-    }
-    nav.mobile-menu ul{
-        display: block;
-        text-align: center;
-    }
-    nav.mobile-menu ul{
-        list-style-type: none;
-    }
-    section.sessao1{
-        padding: 40px 2%;
-        height: auto;
-        text-align: center;     
-    }
-    div.container_sessao1 > div.texto_sessao1{
-        width: 100%;
-        margin-top: 0;
-        padding-left: 0;
-        position: static;
-        float: none;
-        display: inline-block;
-    }
-    div.texto_sessao1 > div.btn1_texto{
-        display: inline-block;
-    }
-    div.texto_sessao1 ul > li{
-        float: none;
-        text-align: left;
-    }
-    div.container_sessao1 > div.texto_sessao1 > ul{
-        display: inline-block;
-        margin-top: 20px;
-    }
-    div.device_sessao1{
-        display: none;
-    }
-    div.chamada1{
-        max-width: none;
-        width: 100%;
-        text-align: center;
-        float: none;
-        margin: 100px 0;
-    }
-    div.chamada1 h2{
-        font-weight: 500;
-        font-size: 30px;
-        padding: 0 10px;
-    }
-    div.chamada1 p{
-        text-align: start;
-    }
+section.sessao2{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    background-color: white;
 }
- 
+section.sessao2 > div.container_sessao2 > h2{
+    color: #476363;
+    font-weight: 400;
+}
+section.sessao2 > div.container_sessao2 > p{
+    margin-top: 30px;
+    padding: 0 30px;
+    max-width: 700px;
+    display: inline-block;
+}
+section.sessao2 > div.container_sessao2 > img{
+    width: 90%;
+    margin-top: 40px;
+}
