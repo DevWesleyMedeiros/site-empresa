@@ -40,7 +40,6 @@ header nav.desktop-menu ul li a{
 }
 header nav.desktop-menu ul li a:hover{
     background-color: #8119d6;
-    font-size: 1.2em;
 }
 nav.mobile-menu ul{
     display: none;
@@ -191,6 +190,7 @@ section.sessao3 > div.part1 > div.wrapper_part1 > p{
 section.sessao3 > div.part1 > div.wrapper_part1{
     max-width: 500px;
     float: right;
+    padding: 0 30px;
 }
 section.sessao3 > div.part2{
     float: left;
@@ -257,3 +257,80 @@ section.sessao3 > div.part2 > div.slider_bullets > span{
     overflow: hidden;
     background-color: rgb(200, 200, 200);
 }
+section.sessao4{
+    padding: 100px 100px;
+    background-color: #472563;
+    outline: 7px solid #472563;
+    border: 5px solid white;
+}
+section.sessao4 > div.container_sessao4 > div.form{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 0 25px;
+    border: 5px solid white;
+}
+section.sessao4 > div.container_sessao4{
+    border: 5px solid white;
+}
+section.sessao4 > div.container_sessao4 > div.form > h2{
+    text-align: start;
+    font-weight: 300;
+    font-size: 20px;
+}
+section.sessao4 > div.container_sessao4 > div.form > p{
+    font-weight: 300;
+    font-size: 15px;
+}
+section.sessao4 > div.container_sessao4 > div.form > form{
+    margin-top: 15px;
+}
+section.sessao4 > div.container_sessao4 > div.form > form > input[type=text], input[type=email], textarea{
+    width: 100%;
+    height: 50px;
+    max-width: 480px;
+    margin-top: 5px;
+    padding-left: 8px;
+    line-height: 1.5em;
+    cursor: text;
+    outline: none;
+}
+textarea{
+    padding: 10px 8px;
+    height: 100px;
+}
+section.sessao4 > div.container_sessao4 > div.form > form > input[type=submit]{
+    width: 165px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    background-color: #ff703d;
+    transition: 0.5s;
+}
+section.sessao4 > div.container_sessao4 > div.form > form > input[type=submit]:hover{
+    background-color: #f94c0d;
+}
+section.sessao4 > div.container_sessao4 > div.map_wrapper{
+    float: left;
+    width: 50%;
+    color: white;
+}
+section.sessao4 > div.container_sessao4 > div.map_wrapper > h2{
+    font-size: 20px;
+    font-weight: 300px;
+}
+section.sessao4 > div.container_sessao4 > div.map_wrapper > div.map{
+    margin-top: 10px;
+    width: 480px;
+    height: 480px;
+    background-color: white;
+    border: 5px solid rgb(200, 200, 200);
+}
+
+

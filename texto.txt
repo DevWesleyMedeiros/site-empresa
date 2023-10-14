@@ -9,6 +9,7 @@ clear: both; significa que o elemento que possui essa propriedade não pode fica
 Quando usar clear: both;:
 
 Alinhar elementos após elementos flutuantes: Você deve usar clear: both; quando deseja que um elemento fique abaixo de todos os elementos flutuantes, mesmo que haja espaço disponível ao lado deles. Isso é comum em layouts de várias colunas.
+Sempre que terminarmos de estilizer elementos que já forma flutuados queremos, por exemplo, começar uma nova linha com mais float, usaremos o clear para que o próximo elemento comece na linha de baixo
 
 css
 

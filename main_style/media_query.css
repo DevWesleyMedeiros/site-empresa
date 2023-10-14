@@ -1,3 +1,8 @@
+@media screen and (max-width: 1024px){
+    div.device_sessao1{
+        display: none;
+    }
+}
 @media screen and (max-width: 797px){
     header{
         width: 100%;
@@ -77,8 +82,17 @@
         padding: 40px 2%;
     }
 }
-@media screen and (max-width: 1024px){
-    div.device_sessao1{
-        display: none;
+@media screen and (max-width: 560px){
+    section.sessao3 > div.part1{
+        width: 100%;
+        padding: 40px 0;
     }
-}
+    section.sessao3 > div.part2{
+        width: 100%;
+        padding: 40px 0;
+    }
+    section.sessao2 > div.container_sessao2 > img{
+        top: 16px;
+        margin-top: 20px;
+    } 
+}      
