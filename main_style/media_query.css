@@ -81,6 +81,50 @@
     section.sessao2{
         padding: 40px 2%;
     }
+    section.sessao4{
+        width: 100%;
+        padding: 10px 5px;
+        background-color: #472563;
+        outline: 7px solid #472563;
+    }
+    section.sessao4 > div.container_sessao4{
+        padding: 10px 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    section.sessao4 > div.container_sessao4 > div.form{
+        width: 100%;
+        color: white;
+        padding: 0px 35px;
+    }
+    section.sessao4 > div.container_sessao4 > div.form > form > input[type=text], input[type=email], textarea{
+        width: 100%;
+        height: 50px;
+        max-width: 600px;
+        margin-top: 5px;
+        padding-left: 8px;
+        line-height: 1.5em;
+        cursor: text;
+        outline: none;
+    }
+    section.sessao4 > div.container_sessao4 > div.form > form > input[type=submit]{
+        display: block;
+        margin: 10px auto;
+    }
+    section.sessao4 > div.container_sessao4 > div.form > h2, p{
+        text-align: center;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    section.sessao4 > div.container_sessao4 > div.map_wrapper{
+        margin-top: 10px;
+        padding: 0px 35px;
+        width: 100%;
+        color: white;
+    }
+    section.sessao4 > div.container_sessao4 > div.map_wrapper > h2{
+        text-align: center;
+    }
 }
 @media screen and (max-width: 560px){
     section.sessao3 > div.part1{

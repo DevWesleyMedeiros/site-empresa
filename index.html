@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site profissional</title>
     <link rel="stylesheet" href="main_style/style.css">
-    <link rel="stylesheet" href="main_style/media-query.css">
+    <link rel="stylesheet" href="main_style/media_query.css">
     <link rel="shortcut icon" href="assets_arquivos/favicon_32x32.png" type="image/x-icon">
   </head>
   <body>
@@ -99,11 +99,15 @@
           <h2>Entre em Contato</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas asperiores aliquam magni nisi beatae ut voluptate, ab non, quis veniam sequi quo in commodi labore fuga iure, a voluptatibus officia.</p>
           <form>
-            <input type="text" name="nome" placeholder="Seu nome*" required minlength="5" maxlength="">
-            <input type="email" name="email" placeholder="Email*" required>
+            <input type="text" name="nome" placeholder="Seu nome*" required minlength="5" maxlength="100">
+            <input type="email" name="email" placeholder="Email*" required minlength="8" maxlength="100">
             <textarea name="mensagem" placeholder="Mensagem"></textarea>
             <input type="submit" value="Enviar">
           </form>
+        </div>
+        <div class="map_wrapper">
+          <h2>Faça uma visita</h2>
+          <div id="map" class="map"></div>
         </div>
         <div class="clear"></div>
       </div>
