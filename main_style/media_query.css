@@ -2,12 +2,20 @@
     div.device_sessao1{
         display: none;
     }
+    section.sessao4 > div.container_sessao4 > div.map_wrapper > div.map > iframe{
+        max-width: 600px;
+        width: 100%;
+        min-height: 470px;
+    }
 }
 @media screen and (max-width: 797px){
     header{
         width: 100%;
         height: auto;
         padding: 40px 1rem;
+    }
+    header > div.logo{
+        display: none;
     }
     nav.desktop-menu{
         display: none;
@@ -52,6 +60,10 @@
     div.texto_sessao1 > div.btn1_texto{
         display: inline-block;
     }
+    div.btn1_texto:hover{
+        background-color: #ff703d;
+        font-size: 1.2em;
+    }
     div.texto_sessao1 ul > li{
         float: none;
         text-align: left;
@@ -95,7 +107,7 @@
     section.sessao4 > div.container_sessao4 > div.form{
         width: 100%;
         color: white;
-        padding: 0px 35px;
+        padding: 0px 50px;
     }
     section.sessao4 > div.container_sessao4 > div.form > form > input[type=text], input[type=email], textarea{
         width: 100%;
@@ -106,6 +118,10 @@
         line-height: 1.5em;
         cursor: text;
         outline: none;
+    }
+    textarea{
+        width: 100%;
+        max-width: 600px;
     }
     section.sessao4 > div.container_sessao4 > div.form > form > input[type=submit]{
         display: block;
@@ -118,12 +134,17 @@
     }
     section.sessao4 > div.container_sessao4 > div.map_wrapper{
         margin-top: 10px;
-        padding: 0px 35px;
+        padding: 0px 50px;
         width: 100%;
         color: white;
     }
     section.sessao4 > div.container_sessao4 > div.map_wrapper > h2{
         text-align: center;
+    }
+    section.sessao4 > div.container_sessao4 > div.map_wrapper > div.map > iframe{
+        max-width: 600px;
+        width: 100%;
+        min-height: 470px;
     }
 }
 @media screen and (max-width: 560px){
